@@ -1,0 +1,238 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400815ea: panic_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/panic.c:472
+0x400857bd: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_system/port/esp_system_chip.c:93
+0x4008b1e9: __assert_func at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/newlib/assert.c:81
+0x400d8552: esp_adc_cal_characterize at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/esp_adc/deprecated/esp32/esp_adc_cal_legacy.c:289 (discriminator 1)
+0x400d53b6: setup at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:14
+0x400d540b: app_main at C:/Espressif/frameworks/esp-idf-v5.2.1-2/workspace/TemperatureReader/main/main.c:29
+0x400e3dac: main_task at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

@@ -1,0 +1,478 @@
+�+���m[0m
+[0�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May 15 2024 13:40:13[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a290h ( 41616) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=0001a2b8 vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001c4cc vaddr=40080000 size=03b4ch ( 15180) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b1ch ( 84764) map[0m
+[0;32mI (162) esp_image: segment 4: paddr=00034b44 vaddr=40083b4c size=08bd0h ( 35792) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (182) boot: Disabling RNG early entropy source...[0m
+[0;32mI (194) cpu_start: Multicore app[0m
+[0;32mI (203) cpu_start: Pro cpu start user code[0m
+[0;32mI (203) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (203) cpu_start: Application information:[0m
+[0;32mI (206) cpu_start: Project name:     app-template[0m
+[0;32mI (211) cpu_start: App version:      v5.2.1[0m
+[0;32mI (216) cpu_start: Compile time:     May 15 2024 13:53:55[0m
+[0;32mI (222) cpu_start: ELF file SHA256:  b561dd3c8...[0m
+[0;32mI (227) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (232) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (237) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (242) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (247) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (254) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (260) heap_init: At 3FFB2B78 len 0002D488 (181 KiB): DRAM[0m
+[0;32mI (266) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (272) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (279) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (287) spi_flash: detected chip: generic[0m
+[0;32mI (290) spi_flash: flash io: dio[0m
+[0;33mW (294) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (307) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (316) main_task: Started on CPU0[0m
+[0;32mI (326) main_task: Calling app_main()[0m
+[0;32mI (326) ADC1_CH5: raw  data: 401[0m
+[0;32mI (326) ADC1_CH5: cali data: 465 mV[0m
+[0;32mI (2326) ADC1_CH5: raw  data: 210[0m
+[0;32mI (2326) ADC1_CH5: cali data: 311 mV[0m
+[0;32mI (4326) ADC1_CH5: raw  data: 207[0m
+[0;32mI (4326) ADC1_CH5: cali data: 309 mV[0m
+[0;32mI (6326) ADC1_CH5: raw  data: 212[0m
+[0;32mI (6326) ADC1_CH5: cali data: 313 mV[0m
+[0;32mI (8326) ADC1_CH5: raw  data: 222[0m
+[0;32mI (8326) ADC1_CH5: cali data: 321 mV[0m
+[0;32mI (10326) ADC1_CH5: raw  data: 219[0m
+[0;32mI (10326) ADC1_CH5: cali data: 318 mV[0m
+[0;32mI (12326) ADC1_CH5: raw  data: 225[0m
+[0;32mI (12326) ADC1_CH5: cali data: 323 mV[0m
+[0;32mI (14326) ADC1_CH5: raw  data: 219[0m
+[0;32mI (14326) ADC1_CH5: cali data: 318 mV[0m
+[0;32mI (16326) ADC1_CH5: raw  data: 224[0m
+[0;32mI (16326) ADC1_CH5: cali data: 322 mV[0m
+[0;32mI (18326) ADC1_CH5: raw  data: 210[0m
+[0;32mI (18326) ADC1_CH5: cali data: 311 mV[0m
+[0;32mI (20326) ADC1_CH5: raw  data: 225[0m
+[0;32mI (20326) ADC1_CH5: cali data: 323 mV[0m
+[0;32mI (22326) ADC1_CH5: raw  data: 203[0m
+[0;32mI (22326) ADC1_CH5: cali data: 306 mV[0m
+[0;32mI (24326) ADC1_CH5: raw  data: 208[0m
+[0;32mI (24326) ADC1_CH5: cali data: 310 mV[0m
+[0;32mI (26326) ADC1_CH5: raw  data: 210[0m
+[0;32mI (26326) ADC1_CH5: cali data: 311 mV[0m
+[0;32mI (28326) ADC1_CH5: raw  data: 212[0m
+[0;32mI (28326) ADC1_CH5: cali data: 313 mV[0m
+[0;32mI (30326) ADC1_CH5: raw  data: 208[0m
+[0;32mI (30326) ADC1_CH5: cali data: 310 mV[0m
+[0;32mI (32326) ADC1_CH5: raw  data: 202[0m
+[0;32mI (32326) ADC1_CH5: cali data: 305 mV[0m
+[0;32mI (34326) ADC1_CH5: raw  data: 197[0m
+[0;32mI (34326) ADC1_CH5: cali data: 301 mV[0m
+[0;32mI (36326) ADC1_CH5: raw  data: 184[0m
+[0;32mI (36326) ADC1_CH5: cali data: 290 mV[0m
+[0;32mI (38326) ADC1_CH5: raw  data: 189[0m
+[0;32mI (38326) ADC1_CH5: cali data: 294 mV[0m
+[0;32mI (40326) ADC1_CH5: raw  data: 207[0m
+[0;32mI (40326) ADC1_CH5: cali data: 309 mV[0m
+[0;32mI (42326) ADC1_CH5: raw  data: 212[0m
+[0;32mI (42326) ADC1_CH5: cali data: 313 mV[0m
+[0;32mI (44326) ADC1_CH5: raw  data: 221[0m
+[0;32mI (44326) ADC1_CH5: cali data: 320 mV[0m
+[0;32mI (46326) ADC1_CH5: raw  data: 217[0m
+[0;32mI (46326) ADC1_CH5: cali data: 317 mV[0m
+[0;32mI (48326) ADC1_CH5: raw  data: 210[0m
+[0;32mI (48326) ADC1_CH5: cali data: 311 mV[0m
+[0;32mI (50326) ADC1_CH5: raw  data: 231[0m
+[0;32mI (50326) ADC1_CH5: cali data: 328 mV[0m
+[0;32mI (52326) ADC1_CH5: raw  data: 222[0m
+[0;32mI (52326) ADC1_CH5: cali data: 321 mV[0m
+[0;32mI (54326) ADC1_CH5: raw  data: 220[0m
+[0;32mI (54326) ADC1_CH5: cali data: 319 mV[0m
+[0;32mI (56326) ADC1_CH5: raw  data: 221[0m
+[0;32mI (56326) ADC1_CH5: cali data: 320 mV[0m
+[0;32mI (58326) ADC1_CH5: raw  data: 440[0m
+[0;32mI (58326) ADC1_CH5: cali data: 496 mV[0m
+[0;32mI (60326) ADC1_CH5: raw  data: 351[0m
+[0;32mI (60326) ADC1_CH5: cali data: 425 mV[0m
+[0;32mI (62326) ADC1_CH5: raw  data: 252[0m
+[0;32mI (62326) ADC1_CH5: cali data: 345 mV[0m
+[0;32mI (64326) ADC1_CH5: raw  data: 142[0m
+[0;32mI (64326) ADC1_CH5: cali data: 256 mV[0m
+[0;32mI (66326) ADC1_CH5: raw  data: 146[0m
+[0;32mI (66326) ADC1_CH5: cali data: 260 mV[0m
+[0;32mI (68326) ADC1_CH5: raw  data: 115[0m
+[0;32mI (68326) ADC1_CH5: cali data: 235 mV[0m
+[0;32mI (70326) ADC1_CH5: raw  data: 128[0m
+[0;32mI (70326) ADC1_CH5: cali data: 245 mV[0m
+[0;32mI (72326) ADC1_CH5: raw  data: 153[0m
+[0;32mI (72326) ADC1_CH5: cali data: 265 mV[0m
+[0;32mI (74326) ADC1_CH5: raw  data: 341[0m
+[0;32mI (74326) ADC1_CH5: cali data: 417 mV[0m
+[0;32mI (76326) ADC1_CH5: raw  data: 157[0m
+[0;32mI (76326) ADC1_CH5: cali data: 268 mV[0m
+[0;32mI (78326) ADC1_CH5: raw  data: 393[0m
+[0;32mI (78326) ADC1_CH5: cali data: 459 mV[0m
+[0;32mI (80326) ADC1_CH5: raw  data: 365[0m
+[0;32mI (80326) ADC1_CH5: cali data: 436 mV[0m
+[0;32mI (82326) ADC1_CH5: raw  data: 4095[0m
+[0;32mI (82326) ADC1_CH5: cali data: 3134 mV[0m
+[0;32mI (84326) ADC1_CH5: raw  data: 4095[0m
+[0;32mI (84326) ADC1_CH5: cali data: 3134 mV[0m
+[0;32mI (86326) ADC1_CH5: raw  data: 4095[0m
+[0;32mI (86326) ADC1_CH5: cali data: 3134 mV[0m
+[0;32mI (88326) ADC1_CH5: raw  data: 4095[0m
+[0;32mI (88326) ADC1_CH5: cali data: 3134 mV[0m
+[0;32mI (90326) ADC1_CH5: raw  data: 4095[0m
+[0;32mI (90326) ADC1_CH5: cali data: 3134 mV[0m
+[0;32mI (92326) ADC1_CH5: raw  data: 4095[0m
+[0;32mI (92326) ADC1_CH5: cali data: 3134 mV[0m
+[0;32mI (94326) ADC1_CH5: raw  data: 4095[0m
+[0;32mI (94326) ADC1_CH5: cali data: 3134 mV[0m
+[0;32mI (96326) ADC1_CH5: raw  data: 245[0m
+[0;32mI (96326) ADC1_CH5: cali data: 339 mV[0m
+[0;32mI (98326) ADC1_CH5: raw  data: 303[0m
+[0;32mI (98326) ADC1_CH5: cali data: 386 mV[0m
+[0;32mI (100326) ADC1_CH5: raw  data: 272[0m
+[0;32mI (100326) ADC1_CH5: cali data: 361 mV[0m
+[0;32mI (102326) ADC1_CH5: raw  data: 270[0m
+[0;32mI (102326) ADC1_CH5: cali data: 360 mV[0m
+[0;32mI (104326) ADC1_CH5: raw  data: 254[0m
+[0;32mI (104326) ADC1_CH5: cali data: 347 mV[0m
+[0;32mI (106326) ADC1_CH5: raw  data: 222[0m
+[0;32mI (106326) ADC1_CH5: cali data: 321 mV[0m
+[0;32mI (108326) ADC1_CH5: raw  data: 198[0m
+[0;32mI (108326) ADC1_CH5: cali data: 302 mV[0m
+[0;32mI (110326) ADC1_CH5: raw  data: 190[0m
+[0;32mI (110326) ADC1_CH5: cali data: 295 mV[0m
+[0;32mI (112326) ADC1_CH5: raw  data: 185[0m
+[0;32mI (112326) ADC1_CH5: cali data: 291 mV[0m
+[0;32mI (114326) ADC1_CH5: raw  data: 181[0m
+[0;32mI (114326) ADC1_CH5: cali data: 288 mV[0m
+[0;32mI (116326) ADC1_CH5: raw  data: 176[0m
+[0;32mI (116326) ADC1_CH5: cali data: 284 mV[0m
+[0;32mI (118326) ADC1_CH5: raw  data: 208[0m
+[0;32mI (118326) ADC1_CH5: cali data: 310 mV[0m
+[0;32mI (120326) ADC1_CH5: raw  data: 339[0m
+[0;32mI (120326) ADC1_CH5: cali data: 415 mV[0m
+[0;32mI (122326) ADC1_CH5: raw  data: 224[0m
+[0;32mI (122326) ADC1_CH5: cali data: 322 mV[0m
+[0;32mI (124326) ADC1_CH5: raw  data: 242[0m
+[0;32mI (124326) ADC1_CH5: cali data: 337 mV[0m
+[0;32mI (126326) ADC1_CH5: raw  data: 249[0m
+[0;32mI (126326) ADC1_CH5: cali data: 343 mV[0m
+[0;32mI (128326) ADC1_CH5: raw  data: 272[0m
+[0;32mI (128326) ADC1_CH5: cali data: 361 mV[0m
+[0;32mI (130326) ADC1_CH5: raw  data: 314[0m
+[0;32mI (130326) ADC1_CH5: cali data: 395 mV[0m
+[0;32mI (132326) ADC1_CH5: raw  data: 318[0m
+[0;32mI (132326) ADC1_CH5: cali data: 398 mV[0m
+[0;32mI (134326) ADC1_CH5: raw  data: 306[0m
+[0;32mI (134326) ADC1_CH5: cali data: 389 mV[0m
+[0;32mI (136326) ADC1_CH5: raw  data: 298[0m
+[0;32mI (136326) ADC1_CH5: cali data: 382 mV[0m
+[0;32mI (138326) ADC1_CH5: raw  data: 333[0m
+[0;32mI (138326) ADC1_CH5: cali data: 410 mV[0m
+[0;32mI (140326) ADC1_CH5: raw  data: 299[0m
+[0;32mI (140326) ADC1_CH5: cali data: 383 mV[0m
+[0;32mI (142326) ADC1_CH5: raw  data: 291[0m
+[0;32mI (142326) ADC1_CH5: cali data: 376 mV[0m
+[0;32mI (144326) ADC1_CH5: raw  data: 274[0m
+[0;32mI (144326) ADC1_CH5: cali data: 363 mV[0m
+[0;32mI (146326) ADC1_CH5: raw  data: 257[0m
+[0;32mI (146326) ADC1_CH5: cali data: 349 mV[0m
+[0;32mI (148326) ADC1_CH5: raw  data: 214[0m
+[0;32mI (148326) ADC1_CH5: cali data: 314 mV[0m
+[0;32mI (150326) ADC1_CH5: raw  data: 201[0m
+[0;32mI (150326) ADC1_CH5: cali data: 304 mV[0m
+[0;32mI (152326) ADC1_CH5: raw  data: 198[0m
+[0;32mI (152326) ADC1_CH5: cali data: 302 mV[0m
+[0;32mI (154326) ADC1_CH5: raw  data: 187[0m
+[0;32mI (154326) ADC1_CH5: cali data: 293 mV[0m
+[0;32mI (156326) ADC1_CH5: raw  data: 160[0m
+[0;32mI (156326) ADC1_CH5: cali data: 271 mV[0m
+[0;32mI (158326) ADC1_CH5: raw  data: 194[0m
+[0;32mI (158326) ADC1_CH5: cali data: 298 mV[0m
+[0;32mI (160326) ADC1_CH5: raw  data: 220[0m
+[0;32mI (160326) ADC1_CH5: cali data: 319 mV[0m
+[0;32mI (162326) ADC1_CH5: raw  data: 246[0m
+[0;32mI (162326) ADC1_CH5: cali data: 340 mV[0m
+[0;32mI (164326) ADC1_CH5: raw  data: 275[0m
+[0;32mI (164326) ADC1_CH5: cali data: 364 mV[0m
+[0;32mI (166326) ADC1_CH5: raw  data: 432[0m
+[0;32mI (166326) ADC1_CH5: cali data: 490 mV[0m
+[0;32mI (168326) ADC1_CH5: raw  data: 562[0m
+[0;32mI (168326) ADC1_CH5: cali data: 595 mV[0m
+[0;32mI (170326) ADC1_CH5: raw  data: 401[0m
+[0;32mI (170326) ADC1_CH5: cali data: 465 mV[0m
+[0;32mI (172326) ADC1_CH5: raw  data: 383[0m
+[0;32mI (172326) ADC1_CH5: cali data: 451 mV[0m
+[0;32mI (174326) ADC1_CH5: raw  data: 432[0m
+[0;32mI (174326) ADC1_CH5: cali data: 490 mV[0m
+[0;32mI (176326) ADC1_CH5: raw  data: 437[0m
+[0;32mI (176326) ADC1_CH5: cali data: 494 mV[0m
+[0;32mI (178326) ADC1_CH5: raw  data: 364[0m
+[0;32mI (178326) ADC1_CH5: cali data: 435 mV[0m
+[0;32mI (180326) ADC1_CH5: raw  data: 313[0m
+[0;32mI (180326) ADC1_CH5: cali data: 394 mV[0m
+[0;32mI (182326) ADC1_CH5: raw  data: 271[0m
+[0;32mI (182326) ADC1_CH5: cali data: 360 mV[0m
+[0;32mI (184326) ADC1_CH5: raw  data: 181[0m
+[0;32mI (184326) ADC1_CH5: cali data: 288 mV[0m
+[0;32mI (186326) ADC1_CH5: raw  data: 164[0m
+[0;32mI (186326) ADC1_CH5: cali data: 274 mV[0m
+[0;32mI (188326) ADC1_CH5: raw  data: 223[0m
+[0;32mI (188326) ADC1_CH5: cali data: 322 mV[0m
+[0;32mI (190326) ADC1_CH5: raw  data: 157[0m
+[0;32mI (190326) ADC1_CH5: cali data: 268 mV[0m
+[0;32mI (192326) ADC1_CH5: raw  data: 181[0m
+[0;32mI (192326) ADC1_CH5: cali data: 288 mV[0m
+[0;32mI (194326) ADC1_CH5: raw  data: 256[0m
+[0;32mI (194326) ADC1_CH5: cali data: 348 mV[0m
+[0;32mI (196326) ADC1_CH5: raw  data: 330[0m
+[0;32mI (196326) ADC1_CH5: cali data: 408 mV[0m
+[0;32mI (198326) ADC1_CH5: raw  data: 296[0m
+[0;32mI (198326) ADC1_CH5: cali data: 380 mV[0m
+[0;32mI (200326) ADC1_CH5: raw  data: 598[0m
+[0;32mI (200326) ADC1_CH5: cali data: 624 mV[0m
+[0;32mI (202326) ADC1_CH5: raw  data: 580[0m
+[0;32mI (202326) ADC1_CH5: cali data: 609 mV[0m
+[0;32mI (204326) ADC1_CH5: raw  data: 313[0m
+[0;32mI (204326) ADC1_CH5: cali data: 394 mV[0m
+[0;32mI (206326) ADC1_CH5: raw  data: 333[0m
+[0;32mI (206326) ADC1_CH5: cali data: 410 mV[0m
+[0;32mI (208326) ADC1_CH5: raw  data: 322[0m
+[0;32mI (208326) ADC1_CH5: cali data: 401 mV[0m
+[0;32mI (210326) ADC1_CH5: raw  data: 455[0m
+[0;32mI (210326) ADC1_CH5: cali data: 509 mV[0m
+[0;32mI (212326) ADC1_CH5: raw  data: 400[0m
+[0;32mI (212326) ADC1_CH5: cali data: 464 mV[0m
+[0;32mI (214326) ADC1_CH5: raw  data: 16[0m
+[0;32mI (214326) ADC1_CH5: cali data: 155 mV[0m
+[0;32mI (216326) ADC1_CH5: raw  data: 272[0m
+[0;32mI (216326) ADC1_CH5: cali data: 361 mV[0m
+[0;32mI (218326) ADC1_CH5: raw  data: 289[0m
+[0;32mI (218326) ADC1_CH5: cali data: 375 mV[0m
+[0;32mI (220326) ADC1_CH5: raw  data: 195[0m
+[0;32mI (220326) ADC1_CH5: cali data: 299 mV[0m
+[0;32mI (222326) ADC1_CH5: raw  data: 182[0m
+[0;32mI (222326) ADC1_CH5: cali data: 289 mV[0m
+[0;32mI (224326) ADC1_CH5: raw  data: 57[0m
+[0;32mI (224326) ADC1_CH5: cali data: 188 mV[0m
+[0;32mI (226326) ADC1_CH5: raw  data: 0[0m
+[0;32mI (226326) ADC1_CH5: cali data: 142 mV[0m
+[0;32mI (228326) ADC1_CH5: raw  data: 57[0m
+[0;32mI (228326) ADC1_CH5: cali data: 188 mV[0m
+[0;32mI (230326) ADC1_CH5: raw  data: 157[0m
+[0;32mI (230326) ADC1_CH5: cali data: 268 mV[0m
+[0;32mI (232326) ADC1_CH5: raw  data: 249[0m
+[0;32mI (232326) ADC1_CH5: cali data: 343 mV[0m
+[0;32mI (234326) ADC1_CH5: raw  data: 265[0m
+[0;32mI (234326) ADC1_CH5: cali data: 355 mV[0m
+[0;32mI (236326) ADC1_CH5: raw  data: 339[0m
+[0;32mI (236326) ADC1_CH5: cali data: 415 mV[0m
+[0;32mI (238326) ADC1_CH5: raw  data: 435[0m
+[0;32mI (238326) ADC1_CH5: cali data: 492 mV[0m
+[0;32mI (240326) ADC1_CH5: raw  data: 306[0m
+[0;32mI (240326) ADC1_CH5: cali data: 389 mV[0m
+[0;32mI (242326) ADC1_CH5: raw  data: 333[0m
+[0;32mI (242326) ADC1_CH5: cali data: 410 mV[0m
+[0;32mI (244326) ADC1_CH5: raw  data: 435[0m
+[0;32mI (244326) ADC1_CH5: cali data: 492 mV[0m
+[0;32mI (246326) ADC1_CH5: raw  data: 357[0m
+[0;32mI (246326) ADC1_CH5: cali data: 430 mV[0m
+[0;32mI (248326) ADC1_CH5: raw  data: 363[0m
+[0;32mI (248326) ADC1_CH5: cali data: 434 mV[0m
+[0;32mI (250326) ADC1_CH5: raw  data: 361[0m
+[0;32mI (250326) ADC1_CH5: cali data: 433 mV[0m
+[0;32mI (252326) ADC1_CH5: raw  data: 400[0m
+[0;32mI (252326) ADC1_CH5: cali data: 464 mV[0m
+[0;32mI (254326) ADC1_CH5: raw  data: 410[0m
+[0;32mI (254326) ADC1_CH5: cali data: 472 mV[0m
+[0;32mI (256326) ADC1_CH5: raw  data: 498[0m
+[0;32mI (256326) ADC1_CH5: cali data: 543 mV[0m
+[0;32mI (258326) ADC1_CH5: raw  data: 408[0m
+[0;32mI (258326) ADC1_CH5: cali data: 471 mV[0m
+[0;32mI (260326) ADC1_CH5: raw  data: 498[0m
+[0;32mI (260326) ADC1_CH5: cali data: 543 mV[0m
+[0;32mI (262326) ADC1_CH5: raw  data: 501[0m
+[0;32mI (262326) ADC1_CH5: cali data: 546 mV[0m
+[0;32mI (264326) ADC1_CH5: raw  data: 336[0m
+[0;32mI (264326) ADC1_CH5: cali data: 413 mV[0m
+[0;32mI (266326) ADC1_CH5: raw  data: 391[0m
+[0;32mI (266326) ADC1_CH5: cali data: 457 mV[0m
+[0;32mI (268326) ADC1_CH5: raw  data: 357[0m
+[0;32mI (268326) ADC1_CH5: cali data: 430 mV[0m
+[0;32mI (270326) ADC1_CH5: raw  data: 387[0m
+[0;32mI (270326) ADC1_CH5: cali data: 454 mV[0m
+[0;32mI (272326) ADC1_CH5: raw  data: 390[0m
+[0;32mI (272326) ADC1_CH5: cali data: 456 mV[0m
+[0;32mI (274326) ADC1_CH5: raw  data: 373[0m
+[0;32mI (274326) ADC1_CH5: cali data: 443 mV[0m
+[0;32mI (276326) ADC1_CH5: raw  data: 575[0m
+[0;32mI (276326) ADC1_CH5: cali data: 605 mV[0m
+[0;32mI (278326) ADC1_CH5: raw  data: 368[0m
+[0;32mI (278326) ADC1_CH5: cali data: 438 mV[0m
+[0;32mI (280326) ADC1_CH5: raw  data: 374[0m
+[0;32mI (280326) ADC1_CH5: cali data: 443 mV[0m
+[0;32mI (282326) ADC1_CH5: raw  data: 381[0m
+[0;32mI (282326) ADC1_CH5: cali data: 449 mV[0m
+[0;32mI (284326) ADC1_CH5: raw  data: 390[0m
+[0;32mI (284326) ADC1_CH5: cali data: 456 mV[0m
+[0;32mI (286326) ADC1_CH5: raw  data: 390[0m
+[0;32mI (286326) ADC1_CH5: cali data: 456 mV[0m
+[0;32mI (288326) ADC1_CH5: raw  data: 394[0m
+[0;32mI (288326) ADC1_CH5: cali data: 459 mV[0m
+[0;32mI (290326) ADC1_CH5: raw  data: 394[0m
+[0;32mI (290326) ADC1_CH5: cali data: 459 mV[0m
+[0;32mI (292326) ADC1_CH5: raw  data: 401[0m
+[0;32mI (292326) ADC1_CH5: cali data: 465 mV[0m
+[0;32mI (294326) ADC1_CH5: raw  data: 385[0m
+[0;32mI (294326) ADC1_CH5: cali data: 452 mV[0m
+[0;32mI (296326) ADC1_CH5: raw  data: 384[0m
+[0;32mI (296326) ADC1_CH5: cali data: 451 mV[0m
+[0;32mI (298326) ADC1_CH5: raw  data: 381[0m
+[0;32mI (298326) ADC1_CH5: cali data: 449 mV[0m
+[0;32mI (300326) ADC1_CH5: raw  data: 374[0m
+[0;32mI (300326) ADC1_CH5: cali data: 443 mV[0m
+[0;32mI (302326) ADC1_CH5: raw  data: 367[0m
+[0;32mI (302326) ADC1_CH5: cali data: 438 mV[0m
+[0;32mI (304326) ADC1_CH5: raw  data: 346[0m
+[0;32mI (304326) ADC1_CH5: cali data: 421 mV[0m
+[0;32mI (306326) ADC1_CH5: raw  data: 324[0m
+[0;32mI (306326) ADC1_CH5: cali data: 403 mV[0m
+[0;32mI (308326) ADC1_CH5: raw  data: 329[0m
+[0;32mI (308326) ADC1_CH5: cali data: 407 mV[0m
+[0;32mI (310326) ADC1_CH5: raw  data: 300[0m
+[0;32mI (310326) ADC1_CH5: cali data: 384 mV[0m
+[0;32mI (312326) ADC1_CH5: raw  data: 286[0m
+[0;32mI (312326) ADC1_CH5: cali data: 372 mV[0m
+[0;32mI (314326) ADC1_CH5: raw  data: 290[0m
+[0;32mI (314326) ADC1_CH5: cali data: 376 mV[0m
+[0;32mI (316326) ADC1_CH5: raw  data: 252[0m
+[0;32mI (316326) ADC1_CH5: cali data: 345 mV[0m
+[0;32mI (318326) ADC1_CH5: raw  data: 240[0m
+[0;32mI (318326) ADC1_CH5: cali data: 335 mV[0m
+[0;32mI (320326) ADC1_CH5: raw  data: 241[0m
+[0;32mI (320326) ADC1_CH5: cali data: 336 mV[0m
+[0;32mI (322326) ADC1_CH5: raw  data: 300[0m
+[0;32mI (322326) ADC1_CH5: cali data: 384 mV[0m
+[0;32mI (324326) ADC1_CH5: raw  data: 259[0m
+[0;32mI (324326) ADC1_CH5: cali data: 351 mV[0m
+[0;32mI (326326) ADC1_CH5: raw  data: 240[0m
+[0;32mI (326326) ADC1_CH5: cali data: 335 mV[0m
+[0;32mI (328326) ADC1_CH5: raw  data: 231[0m
+[0;32mI (328326) ADC1_CH5: cali data: 328 mV[0m
+[0;32mI (330326) ADC1_CH5: raw  data: 210[0m
+[0;32mI (330326) ADC1_CH5: cali data: 311 mV[0m
+[0;32mI (332326) ADC1_CH5: raw  data: 251[0m
+[0;32mI (332326) ADC1_CH5: cali data: 344 mV[0m
+[0;32mI (334326) ADC1_CH5: raw  data: 112[0m
+[0;32mI (334326) ADC1_CH5: cali data: 232 mV[0m
+[0;32mI (336326) ADC1_CH5: raw  data: 580[0m
+[0;32mI (336326) ADC1_CH5: cali data: 609 mV[0m
+[0;32mI (338326) ADC1_CH5: raw  data: 67[0m
+[0;32mI (338326) ADC1_CH5: cali data: 196 mV[0m
+[0;32mI (340326) ADC1_CH5: raw  data: 182[0m
+[0;32mI (340326) ADC1_CH5: cali data: 289 mV[0m
+[0;32mI (342326) ADC1_CH5: raw  data: 58[0m
+[0;32mI (342326) ADC1_CH5: cali data: 189 mV[0m
+[0;32mI (344326) ADC1_CH5: raw  data: 145[0m
+[0;32mI (344326) ADC1_CH5: cali data: 259 mV[0m
+[0;32mI (346326) ADC1_CH5: raw  data: 176[0m
+[0;32mI (346326) ADC1_CH5: cali data: 284 mV[0m
+[0;32mI (348326) ADC1_CH5: raw  data: 208[0m
+[0;32mI (348326) ADC1_CH5: cali data: 310 mV[0m
+[0;32mI (350326) ADC1_CH5: raw  data: 209[0m
+[0;32mI (350326) ADC1_CH5: cali data: 310 mV[0m
+[0;32mI (352326) ADC1_CH5: raw  data: 878[0m
+[0;32mI (352326) ADC1_CH5: cali data: 849 mV[0m
+[0;32mI (354326) ADC1_CH5: raw  data: 277[0m
+[0;32mI (354326) ADC1_CH5: cali data: 365 mV[0m
+[0;32mI (356326) ADC1_CH5: raw  data: 336[0m
+[0;32mI (356326) ADC1_CH5: cali data: 413 mV[0m
+[0;32mI (358326) ADC1_CH5: raw  data: 376[0m
+[0;32mI (358326) ADC1_CH5: cali data: 445 mV[0m
+[0;32mI (360326) ADC1_CH5: raw  data: 363[0m
+[0;32mI (360326) ADC1_CH5: cali data: 434 mV[0m
+[0;32mI (362326) ADC1_CH5: raw  data: 366[0m
+[0;32mI (362326) ADC1_CH5: cali data: 437 mV[0m
+[0;32mI (364326) ADC1_CH5: raw  data: 371[0m
+[0;32mI (364326) ADC1_CH5: cali data: 441 mV[0m
+[0;32mI (366326) ADC1_CH5: raw  data: 371[0m
+[0;32mI (366326) ADC1_CH5: cali data: 441 mV[0m
+[0;32mI (368326) ADC1_CH5: raw  data: 396[0m
+[0;32mI (368326) ADC1_CH5: cali data: 461 mV[0m
+[0;32mI (370326) ADC1_CH5: raw  data: 397[0m
+[0;32mI (370326) ADC1_CH5: cali data: 462 mV[0m
+[0;32mI (372326) ADC1_CH5: raw  data: 387[0m
+[0;32mI (372326) ADC1_CH5: cali data: 454 mV[0m
+[0;32mI (374326) ADC1_CH5: raw  data: 400[0m
+[0;32mI (374326) ADC1_CH5: cali data: 464 mV[0m
+[0;32mI (376326) ADC1_CH5: raw  data: 383[0m
+[0;32mI (376326) ADC1_CH5: cali data: 451 mV[0m
+[0;32mI (378326) ADC1_CH5: raw  data: 410[0m
+[0;32mI (378326) ADC1_CH5: cali data: 472 mV[0m
+[0;32mI (380326) ADC1_CH5: raw  data: 427[0m
+[0;32mI (380326) ADC1_CH5: cali data: 486 mV[0m
+[0;32mI (382326) ADC1_CH5: raw  data: 398[0m
+[0;32mI (382326) ADC1_CH5: cali data: 463 mV[0m
+[0;32mI (384326) ADC1_CH5: raw  data: 400[0m
+[0;32mI (384326) ADC1_CH5: cali data: 464 mV[0m
+[0;32mI (386326) ADC1_CH5: raw  data: 410[0m
+[0;32mI (386326) ADC1_CH5: cali data: 472 mV[0m
+[0;32mI (388326) ADC1_CH5: raw  data: 420[0m
+[0;32mI (388326) ADC1_CH5: cali data: 480 mV[0m
+[0;32mI (390326) ADC1_CH5: raw  data: 397[0m
+[0;32mI (390326) ADC1_CH5: cali data: 462 mV[0m
+[0;32mI (392326) ADC1_CH5: raw  data: 398[0m
+[0;32mI (392326) ADC1_CH5: cali data: 463 mV[0m
+[0;32mI (394326) ADC1_CH5: raw  data: 397[0m
+[0;32mI (394326) ADC1_CH5: cali data: 462 mV[0m
+[0;32mI (396326) ADC1_CH5: raw  data: 384[0m
+[0;32mI (396326) ADC1_CH5: cali data: 451 mV[0m
+[0;32mI (398326) ADC1_CH5: raw  data: 382[0m
+[0;32mI (398326) ADC1_CH5: cali data: 450 mV[0m
+[0;32mI (400326) ADC1_CH5: raw  data: 362[0m
+[0;32mI (400326) ADC1_CH5: cali data: 434 mV[0m
+[0;32mI (402326) ADC1_CH5: raw  data: 373[0m
+[0;32mI (402326) ADC1_CH5: cali data: 443 mV[0m
+[0;32mI (404326) ADC1_CH5: raw  data: 368[0m
+[0;32mI (404326) ADC1_CH5: cali data: 438 mV[0m
+[0;32mI (406326) ADC1_CH5: raw  data: 374[0m
+[0;32mI (406326) ADC1_CH5: cali data: 443 mV[0m
+[0;32mI (408326) ADC1_CH5: raw  data: 353[0m
+[0;32mI (408326) ADC1_CH5: cali data: 426 mV[0m
+[0;32mI (410326) ADC1_CH5: raw  data: 371[0m
+[0;32mI (410326) ADC1_CH5: cali data: 441 mV[0m
+[0;32mI (412326) ADC1_CH5: raw  data: 388[0m
+[0;32mI (412326) ADC1_CH5: cali data: 455 mV[0m
+[0;32mI (414326) ADC1_CH5: raw  data: 229[0m
+[0;32mI (414326) ADC1_CH5: cali data: 326 mV[0m
+[0;32mI (416326) ADC1_CH5: raw  data: 353[0m
+[0;32mI (416326) ADC1_CH5: cali data: 426 mV[0m
+[0;32mI (418326) ADC1_CH5: raw  data: 391[0m
+[0;32mI (418326) ADC1_CH5: cali data: 457 mV[0m

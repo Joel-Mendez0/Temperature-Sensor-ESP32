@@ -1,0 +1,146 @@
+������m[0m
+[0ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May 15 2024 13:40:13[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0baech ( 47852) map[0m
+[0;32mI (121) esp_image: segment 1: paddr=0001bb14 vaddr=3ffb0000 size=02284h (  8836) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001dda0 vaddr=40080000 size=02278h (  8824) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1a414h (107540) map[0m
+[0;32mI (172) esp_image: segment 4: paddr=0003a43c vaddr=40082278 size=0ba74h ( 47732) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (198) boot: Disabling RNG early entropy source...[0m
+[0;32mI (209) cpu_start: Multicore app[0m
+[0;32mI (218) cpu_start: Pro cpu start user code[0m
+[0;32mI (218) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (218) cpu_start: Application information:[0m
+[0;32mI (221) cpu_start: Project name:     app-template[0m
+[0;32mI (226) cpu_start: App version:      v5.2.1[0m
+[0;32mI (231) cpu_start: Compile time:     May 15 2024 13:53:55[0m
+[0;32mI (237) cpu_start: ELF file SHA256:  d61956957...[0m
+[0;32mI (243) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (248) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (252) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (257) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (262) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (269) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (275) heap_init: At 3FFB2C08 len 0002D3F8 (180 KiB): DRAM[0m
+[0;32mI (281) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (288) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (294) heap_init: At 4008DCEC len 00012314 (72 KiB): IRAM[0m
+[0;32mI (302) spi_flash: detected chip: generic[0m
+[0;32mI (305) spi_flash: flash io: dio[0m
+[0;33mW (309) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (322) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;33mW (333) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (342) main_task: Started on CPU0[0m
+[0;32mI (352) main_task: Calling app_main()[0m
+[0;32mI (352) i2c-simple-example: I2C initialized successfully[0m
+[0;32mI (442) ADC1_CH5: raw  data: 458[0m
+[0;32mI (442) ADC1_CH5: cali data: 511 mV[0m
+[0;32mI (2442) ADC1_CH5: raw  data: 409[0m
+[0;32mI (2442) ADC1_CH5: cali data: 472 mV[0m
+[0;32mI (4442) ADC1_CH5: raw  data: 397[0m
+[0;32mI (4442) ADC1_CH5: cali data: 462 mV[0m
+[0;32mI (6442) ADC1_CH5: raw  data: 394[0m
+[0;32mI (6442) ADC1_CH5: cali data: 459 mV[0m
+[0;32mI (8442) ADC1_CH5: raw  data: 378[0m
+[0;32mI (8442) ADC1_CH5: cali data: 447 mV[0m
+[0;32mI (10442) ADC1_CH5: raw  data: 370[0m
+[0;32mI (10442) ADC1_CH5: cali data: 440 mV[0m
+[0;32mI (12442) ADC1_CH5: raw  data: 341[0m
+[0;32mI (12442) ADC1_CH5: cali data: 417 mV[0m
+[0;32mI (14442) ADC1_CH5: raw  data: 339[0m
+[0;32mI (14442) ADC1_CH5: cali data: 415 mV[0m
+[0;32mI (16442) ADC1_CH5: raw  data: 347[0m
+[0;32mI (16442) ADC1_CH5: cali data: 422 mV[0m
+[0;32mI (18442) ADC1_CH5: raw  data: 346[0m
+[0;32mI (18442) ADC1_CH5: cali data: 421 mV[0m
+[0;32mI (20442) ADC1_CH5: raw  data: 347[0m
+[0;32mI (20442) ADC1_CH5: cali data: 422 mV[0m
+[0;32mI (22442) ADC1_CH5: raw  data: 351[0m
+[0;32mI (22442) ADC1_CH5: cali data: 425 mV[0m
+[0;32mI (24442) ADC1_CH5: raw  data: 363[0m
+[0;32mI (24442) ADC1_CH5: cali data: 434 mV[0m
+[0;32mI (26442) ADC1_CH5: raw  data: 375[0m
+[0;32mI (26442) ADC1_CH5: cali data: 444 mV[0m
+[0;32mI (28442) ADC1_CH5: raw  data: 374[0m
+[0;32mI (28442) ADC1_CH5: cali data: 443 mV[0m
+[0;32mI (30442) ADC1_CH5: raw  data: 301[0m
+[0;32mI (30442) ADC1_CH5: cali data: 384 mV[0m
+[0;32mI (32442) ADC1_CH5: raw  data: 397[0m
+[0;32mI (32442) ADC1_CH5: cali data: 462 mV[0m
+[0;32mI (34442) ADC1_CH5: raw  data: 432[0m
+[0;32mI (34442) ADC1_CH5: cali data: 490 mV[0m
+[0;32mI (36442) ADC1_CH5: raw  data: 400[0m
+[0;32mI (36442) ADC1_CH5: cali data: 464 mV[0m
+[0;32mI (38442) ADC1_CH5: raw  data: 417[0m
+[0;32mI (38442) ADC1_CH5: cali data: 478 mV[0m
+[0;32mI (40442) ADC1_CH5: raw  data: 383[0m
+[0;32mI (40442) ADC1_CH5: cali data: 451 mV[0m
+[0;32mI (42442) ADC1_CH5: raw  data: 455[0m
+[0;32mI (42442) ADC1_CH5: cali data: 509 mV[0m
+[0;32mI (44442) ADC1_CH5: raw  data: 386[0m
+[0;32mI (44442) ADC1_CH5: cali data: 453 mV[0m
+[0;32mI (46442) ADC1_CH5: raw  data: 400[0m
+[0;32mI (46442) ADC1_CH5: cali data: 464 mV[0m
+[0;32mI (48442) ADC1_CH5: raw  data: 314[0m
+[0;32mI (48442) ADC1_CH5: cali data: 395 mV[0m
+[0;32mI (50442) ADC1_CH5: raw  data: 365[0m
+[0;32mI (50442) ADC1_CH5: cali data: 436 mV[0m
+[0;32mI (52442) ADC1_CH5: raw  data: 352[0m
+[0;32mI (52442) ADC1_CH5: cali data: 426 mV[0m
+[0;32mI (54442) ADC1_CH5: raw  data: 347[0m
+[0;32mI (54442) ADC1_CH5: cali data: 422 mV[0m
+[0;32mI (56442) ADC1_CH5: raw  data: 342[0m
+[0;32mI (56442) ADC1_CH5: cali data: 418 mV[0m
+[0;32mI (58442) ADC1_CH5: raw  data: 356[0m
+[0;32mI (58442) ADC1_CH5: cali data: 429 mV[0m
+[0;32mI (60442) ADC1_CH5: raw  data: 339[0m
+[0;32mI (60442) ADC1_CH5: cali data: 415 mV[0m
+[0;32mI (62442) ADC1_CH5: raw  data: 340[0m
+[0;32mI (62442) ADC1_CH5: cali data: 416 mV[0m
+[0;32mI (64442) ADC1_CH5: raw  data: 368[0m
+[0;32mI (64442) ADC1_CH5: cali data: 438 mV[0m
+[0;32mI (66442) ADC1_CH5: raw  data: 368[0m
+[0;32mI (66442) ADC1_CH5: cali data: 438 mV[0m
+[0;32mI (68442) ADC1_CH5: raw  data: 368[0m
+[0;32mI (68442) ADC1_CH5: cali data: 438 mV[0m
+[0;32mI (70442) ADC1_CH5: raw  data: 327[0m
+[0;32mI (70442) ADC1_CH5: cali data: 405 mV[0m
+[0;32mI (72442) ADC1_CH5: raw  data: 382[0m
+[0;32mI (72442) ADC1_CH5: cali data: 450 mV[0m
+[0;32mI (74442) ADC1_CH5: raw  data: 401[0m
+[0;32mI (74442) ADC1_CH5: cali data: 465 mV[0m
+[0;32mI (76442) ADC1_CH5: raw  data: 330[0m
+[0;32mI (76442) ADC1_CH5: cali data: 408 mV[0m
+[0;32mI (78442) ADC1_CH5: raw  data: 417[0m
+[0;32mI (78442) ADC1_CH5: cali data: 478 mV[0m
+[0;32mI (80442) ADC1_CH5: raw  data: 511[0m
+[0;32mI (80442) ADC1_CH5: cali data: 554 mV[0m
+[0;32mI (82442) ADC1_CH5: raw  data: 395[0m
+[0;32mI (82442) ADC1_CH5: cali data: 460 mV[0m
+[0;32mI (84442) ADC1_CH5: raw  data: 383[0m
+[0;32mI (84442) ADC1_CH5: cali data: 451 mV[0m
